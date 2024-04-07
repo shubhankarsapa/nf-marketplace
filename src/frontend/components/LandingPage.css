@@ -1,0 +1,109 @@
+/* Reset default browser styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  height: 100%;
+  font-weight: lighter;
+  font-family: "Merriweather", serif;
+}
+
+/* Header styles */
+.main-header {
+  /* background-image: url("https://antidote.gg/wp-content/uploads/2021/12/antidote-nft-blockchain-metaverse.jpg"); */
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: rgb(255, 255, 255);
+  text-align: center;
+}
+
+/* Navigation styles */
+.nav-bar {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.logo img {
+  width: 120px; /* Adjust size as needed */
+  height: auto;
+  position: absolute;
+  left: 4em;
+  top: 1em;
+  padding: 2em;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  padding: 2em;
+}
+
+.nav-links li {
+  padding: 0 2em;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  /* font-weight: bold; */
+  transition: transform 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: #a855f7;
+}
+
+/* Hero content styles */
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left; /* Align text to the left */
+  width: 100%; /* Take the full width to allow the content to align properly */
+  padding-left: 5em;
+}
+
+.hero-content h1 {
+  font-size: 5em;
+  margin-bottom: 0.2em;
+  font-family: "Merriweather", serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.hero-content p {
+  font-size: 1.5em;
+  width: 40%;
+  margin-bottom: 1em;
+}
+
+.cta-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #8a4dc3;
+  color: white;
+  border-radius: 25px;
+  text-decoration: none;
+
+  transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+  background-color: #6b21a8;
+  font-weight: bold;
+}

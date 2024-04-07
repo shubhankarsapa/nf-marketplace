@@ -1,0 +1,186 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap");
+
+.App {
+  text-align: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-image: url("./abs10.jpg");
+  background-size: cover;
+  font-family: "Roboto", sans-serif;
+}
+
+.connect-wallet-message {
+  font-size: 30px;
+  color: white;
+}
+
+.card-img {
+  height: 17em;
+  border-radius: 15px;
+}
+
+/* Style the navigation links */
+.custom-navbar .nav-link {
+  color: #ffffff;
+  margin: 0 10px; /* Spacing between nav items */
+  padding: 16px 16px; /* Vertical and horizontal padding */
+  transition: color 0.3s ease; /* Smooth transition for hover effect */
+  font-size: 20px;
+}
+
+/* Hover effect for navigation links */
+.custom-navbar .nav-link:hover {
+  color: #ddd; /* Lighter color on hover */
+  text-decoration: none; /* Remove underline */
+}
+
+/* Style the brand logo */
+.custom-navbar .navbar-brand {
+  color: #ffffff;
+  font-weight: 500; /* Make the brand logo a bit bolder */
+  margin-left: 50px;
+}
+
+/* Style the login/logout button */
+.custom-navbar .btn {
+  background-color: #444; /* Darker background for the button */
+  border: none; /* Remove border */
+  color: #ffffff;
+  padding: 8px 20px; /* Padding inside the button */
+  margin-left: 20px; /* Spacing from the last nav item */
+  margin-right: 50px;
+  transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+/* Hover effect for the button */
+.custom-navbar .btn:hover {
+  background-color: #666; /* Lighten the button on hover */
+  color: #fff;
+}
+
+/* Make the navbar full width */
+.custom-navbar,
+.custom-navbar .container,
+.custom-navbar .container-fluid {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+/* Highlight active navigation link - adjust the path as needed */
+.custom-navbar .nav-link.active,
+.custom-navbar .nav-link[aria-current="page"] {
+  color: #aaa; /* Different color for the active link */
+  font-weight: 500; /* Make the active link bolder */
+}
+
+.custom-card {
+  background-color: rgb(39, 38, 38);
+  padding: 5px;
+  border-radius: 15px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.custom-card:hover {
+  transform: translateY(-2px); /* Moves the card up by 10 pixels */
+  box-shadow: 0 10px 20px rgb(92, 92, 92);
+}
+
+.card-body {
+  background-color: rgb(26, 26, 26);
+  padding: 15px;
+}
+
+.card-title {
+  background-color: rgb(26, 26, 26);
+  color: rgb(174, 174, 174);
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.card-text {
+  background-color: rgb(26, 26, 26);
+  color: rgb(174, 174, 174);
+}
+
+.card-footer {
+  padding: 5px;
+  background-color: rgb(26, 26, 26);
+  color: rgb(174, 174, 174);
+  font-size: 20px;
+}
+
+.d-grid {
+  background-color: rgb(26, 26, 26);
+}
+
+.card-btn {
+  margin-top: 5px;
+  border-radius: 15px;
+  background-color: rgb(48, 47, 47);
+  border-color: rgb(29, 29, 29);
+  margin-bottom: 2px;
+  color: rgb(174, 174, 174);
+}
+
+.card-btn:hover {
+  background-color: rgb(59, 137, 50);
+  font-weight: bold;
+}
+
+.input-form {
+  border: none; /* Removes all borders */
+  border-bottom: 2px solid white; /* Adds a bottom border */
+  background-color: transparent; /* Makes the background transparent */
+  color: white; /* Sets the text color to white */
+  outline: none;
+}
+
+.input-form:focus {
+  background-color: transparent;
+  color: white;
+}
+
+.search-bar {
+  text-align: center;
+  width: 300px;
+  padding: 10px;
+  border: none;
+  border-bottom: 2px solid white;
+  background-color: transparent;
+  color: white;
+  font-size: 25px;
+  outline: none;
+}
+
+/* .App-logo {
+  height: 80vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+} */
+
+/* @keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */ ;
