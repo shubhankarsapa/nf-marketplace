@@ -32,7 +32,9 @@
   },
   "scripts": {
     "deploy": "npx hardhat run scripts/deploy.js --network chainstack",
-    "start": "react-scripts start",
+    "start": "concurrently \"npm:server\" \"npm:client\"",
+    "server": "nodemon src/backend/server.js",
+    "client": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -56,6 +58,8 @@
     ]
   },
   "devDependencies": {
-    "@babel/preset-env": "^7.16.11"
+    "@babel/preset-env": "^7.16.11",
+    "concurrently": "^8.2.2",
+    "nodemon": "^3.1.0"
   }
 }
