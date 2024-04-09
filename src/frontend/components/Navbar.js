@@ -8,8 +8,8 @@ const Navigation = ({ web3Handler, account }) => {
 
   const handleLogout = () => {
     web3Handler(null); // Handle disconnect or clear the account state
-    navigate("/"); // Navigate back to the home page
-    window.location.reload(); // Refresh the page to reset application state
+    navigate("/");
+    window.location.reload();
   };
 
   return (

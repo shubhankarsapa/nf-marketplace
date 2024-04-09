@@ -87,7 +87,7 @@ const Home = ({ marketplace, nft }) => {
     <div className="flex justify-center">
       {loading ? (
         <main style={{ padding: "1rem 0", color: "white" }}>
-          <h2>Loading...</h2>
+          <h2>Loading... </h2>
         </main>
       ) : (
         <>

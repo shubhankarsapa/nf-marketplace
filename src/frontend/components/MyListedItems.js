@@ -122,6 +122,7 @@ function MyListedItems({ marketplace, nft, account }) {
                     className="card-img"
                   />
                   <Card.Footer className="card-footer">
+                    <Card.Title className="card-title">{item.name}</Card.Title>
                     {ethers.utils.formatEther(item.totalPrice)} ETH
                   </Card.Footer>
                 </Card>

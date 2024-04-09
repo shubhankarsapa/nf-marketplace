@@ -84,7 +84,7 @@
 
 .custom-card:hover {
   transform: translateY(-2px); /* Moves the card up by 10 pixels */
-  box-shadow: 0 10px 20px rgb(92, 92, 92);
+  box-shadow: 0 10px 20px rgb(147, 146, 146);
 }
 
 .card-body {
